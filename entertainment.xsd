@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.example.com"
+xmlns="http://www.example.com"
+elementFormDefault="qualified">
+
+<xs:element name="entertainment">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="movieCategory" type="xs:string"/>
+            <xs:element name="movieDesc" type="xs:string"/>
+            <xs:element name="movieID" type="xs:string"/>
+            <xs:element name="moviePrice" type="xs:decimal"/>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="ticketStock" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

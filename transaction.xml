@@ -1,0 +1,11 @@
+<transaction
+xmlns="http://www.example.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.example.com transaction.xsd">
+	<accountNumber>202433693</accountNumber>
+	<amount>5000.00</amount>
+	<date>2026-02-14</date>
+	<remainingBalance>15000.00</remainingBalance>
+	<transactionID>60375960993150</transactionID>
+	<transactionType>Deposit</transactionType>
+</transaction>

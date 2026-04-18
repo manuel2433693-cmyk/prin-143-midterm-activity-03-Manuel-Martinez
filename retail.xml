@@ -1,0 +1,12 @@
+<Retail 
+xmlns="http://www.example.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.example.com retail.xsd">
+
+	<brandName>Wireless Earphones</brandName>
+	<prodID>202433693</prodID>
+	<price>11.99</price>
+	<description>Wireless earphones for more convenience!</description>
+	<category>Gadgets</category>
+	<stock>37</stock>
+</Retail>

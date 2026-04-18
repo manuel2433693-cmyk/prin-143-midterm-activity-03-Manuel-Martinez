@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<politician
+xmlns="http://www.example.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.example.com politician.xsd">
+	<address>Tuktukan, Guiguinto, Bulacan</address>
+	<age>48</age>
+	<name>Franchesca Untalan</name>
+	<platform>Healthcare Reforming</platform>
+	<position>Mayor</position>
+</politician>

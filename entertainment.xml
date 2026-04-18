@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<entertainment
+xmlns="http://www.example.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.example.com entertainment.xsd">
+	<movieCategory>Comedy</movieCategory>
+	<movieDesc>Pitch Perfect is a 2012 musical comedy following a college freshman who reluctantly joins an all-girls a cappella group, ultimately transforming their traditional performances into modern, high-energy mash-ups to compete at the top of collegiate music competitions.</movieDesc>
+	<movieID>2433693</movieID>
+	<moviePrice>11.99</moviePrice>
+	<name>Pitch Perfect</name>
+	<ticketStock>58</ticketStock>
+</entertainment>

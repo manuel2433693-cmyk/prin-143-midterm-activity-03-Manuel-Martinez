@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.example.com"
+xmlns="http://www.example.com"
+elementFormDefault="qualified">
+
+<xs:element name="recordManagement">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="course" type="xs:string"/>
+            <xs:element name="email" type="xs:string"/>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="status" type="xs:string"/>
+            <xs:element name="studentID" type="xs:string"/>
+            <xs:element name="yearLevel" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.example.com"
+xmlns="http://www.example.com"
+elementFormDefault="qualified">
+
+<xs:element name="transaction">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="accountNumber" type="xs:string"/>
+            <xs:element name="amount" type="xs:decimal"/>
+            <xs:element name="date" type="xs:date"/>
+            <xs:element name="remainingBalance" type="xs:decimal"/>
+            <xs:element name="transactionID" type="xs:string"/>
+            <xs:element name="transactionType" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
